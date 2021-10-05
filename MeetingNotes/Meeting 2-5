@@ -1,0 +1,9 @@
+Suggestion: try finding APIs online for food recipes, use similar system
+Check online for APIs for alcohol recipes
+If not, use custom recipes saved in database
+Broad database: list quantity of ingredients, suggest based on those
+Use nord.js instead of mongodb
+Make sure app is updated to UI, use a database. DO NOT IGNORE ADDING THE DATABASE!!
+  could be profile creator for a user, etc. 
+ 
+ 

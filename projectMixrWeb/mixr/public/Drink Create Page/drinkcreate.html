@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Login Page [Charlotte was here <3] [So was Jack] --> 
+    <head>
+        <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="../loginstyle.css">
+        <title>Mixr Login</title>
+        <!-- Bootstrap core CSS -->
+        
+    </head>
+    <body>
+    <div class="center">
+    <div class="login">
+        <h1>Create Drink</h1>
+        <hr class="blueLine">
+        <br /> <!-- Adds a line break -->
+        <form method="post" action="">
+            <form>
+                <p><input type="text" id="fname" name="fname" placeholder="Drink Name"></p>
+                <p>
+                    <textarea type="text" placeholder="Short description of drink" id="dDesc" name="dDesc" rows="4" cols="50"></textarea></p>
+            </form>
+
+          <p class="rememberMe">
+            <label>
+            <h3>Ingredients:</h3>
+            <table id="ingredients">
+                <tr>
+                    <td>
+                        <label for="checkbox65">
+                            <input name="checkbox65" class="checkbox65" type="checkbox" />
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <fieldset data-role="controlgroup">
+                            <label for="textinput4">
+                                Add new ingredients
+                                <input name="new_ingredients" id="textinput4" placeholder="" value="" type="type" />
+                            </label>
+                        </fieldset>
+                        <button id="add" onclick='addIngredient()'>Add</button>
+                    </td>
+                </tr>
+            </table>
+            <script>
+                function addIngredient()
+                {
+                    added = " <label for='checkbox65'> <input name='checkbox65' class='checkbox65' type='checkbox' /> "+('#textinput4')+"</label>"
+                }
+            </script>
+            </label>
+          </p>
+          <div class="button-group">
+            <button class="button">Create</button>
+            <button class="button">Cancel</button>
+          </div>
+          <p style="clear:both"><br>
+        </form>
+      </div>
+    </div>
+    </body>

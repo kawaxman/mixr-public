@@ -1,0 +1,276 @@
+.root{
+    flex: 1;
+    left: 0vw;
+    top: 0vw;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Taken from search.css: */
+
+.alignButtons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.blueLine{
+    border-top: 5px solid rgb(64, 153, 255);
+    width: 33vw;
+    margin-left: 5vw;
+}
+
+.borderBox{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    border: 3px solid rgb(64, 153, 255);
+    width: 96vw;
+    height: 64vw;
+    margin: 2vw;
+}
+
+.button{
+    width: 15vw;
+    height: 3vw;
+    margin-left: 5vw;
+    margin-top: -1vw;
+    font-size: 1.5vw;
+    background-color: rgb(20, 129, 255);
+    color:white;
+    border: none
+}
+
+.button1{
+    margin-left: 7.5vw;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: rgb(18, 105, 204);
+}
+
+.buttonContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 5vw;
+    margin-top: 2vw;
+}
+
+.buttonAndInputContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cancelButton {
+    width: 15vw;
+    height: 3vw;
+    font-size: 1.5vw;
+    margin-bottom: 1vw;
+    background-color: rgb(20, 129, 255);
+    color:white;
+    border: none;
+}
+
+.cancelButton:hover {
+    background-color: rgb(16, 113, 224);
+    cursor: pointer;
+}
+
+.editButtonEmail {
+    width: 15vw;
+    height: 3vw;
+    font-size: 1.5vw;
+    margin-bottom: 1vw;
+    background-color: rgb(20, 129, 255);
+    color:white;
+    border: none;
+}
+
+.editButtonEmail:hover {
+    background-color: rgb(16, 113, 224);
+    cursor: pointer;
+}
+
+.editButtonFirst {
+    width: 15vw;
+    height: 3vw;
+    font-size: 1.5vw;
+    margin-bottom: 1vw;
+    background-color: rgb(20, 129, 255);
+    color:white;
+    border: none;
+}
+
+.editButtonFirst:hover {
+    background-color: rgb(16, 113, 224);
+    cursor: pointer;
+}
+
+.editButtonLast {
+    width: 15vw;
+    height: 3vw;
+    font-size: 1.5vw;
+    margin-bottom: 1vw;
+    background-color: rgb(20, 129, 255);
+    color:white;
+    border: none;
+}
+
+.editButtonLast:hover {
+    background-color: rgb(16, 113, 224);
+    cursor: pointer;
+}
+
+.editTitleText {
+    color: white;
+    font-size: 1.5vw;
+}
+
+.inputBox1{
+    width: 35vw;
+    height: 3vw;
+    font-size: 1.5vw;
+    margin-bottom: 1vw;
+    margin-left: 3vw;
+    background-color: rgb(78, 78, 78);
+    border: 3px solid rgb(49, 49, 49);
+    border-radius: 4px;
+    padding-left: 1vw;
+    border: none
+}
+
+.inputBox2{
+    width: 2vw;
+    height: 2vw;
+    margin-left: 5vw;
+    margin-right: 2vw;
+    border: none
+}
+
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2vw;
+    margin-left: 5vw;
+    align-self: flex-start;
+    width: 25vw;
+}
+
+.invalidInputText {
+    color: red;
+    font-size: 1.5vw;
+}
+
+.listItem{
+    color: white;
+    font-size: 1.5vw;
+}
+
+.loginTitle{
+    color: white;
+    margin-left: 5vw;
+    font-size: 4vw;
+}
+
+.rememberMe{
+    color: white;
+    font-size: 2vw;
+}
+
+.rememberMeContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 5vw;
+}
+
+.subHeader{
+    margin-top: 2vw;
+    margin-left: 5vw;
+    align-self: flex-start;
+    width: 80vw;
+}
+
+.dropdown{
+    margin-left:5vw;
+    width: 20vw;
+    height: 3vw;
+}
+
+.boldInline{
+    color: white;
+    margin-left: 5vw;
+    margin-top: 0vw;
+    line-height: 180%;
+    font-size: 2.2vw;
+    display: inline;
+}
+
+.regInline{
+    color: white;
+    font-size: 2.2vw;
+    margin-left: 5vw;
+    line-height: 190%;
+    font-weight: normal;
+    display: inline;
+
+}
+
+.profileIcon{
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    margin-left: 7vw;
+    float: left;
+}
+
+.submitButtonText {
+    font-size: 1.5vw;
+    color: white;
+    margin-left: 6.5vw;
+    margin-top: 4vw;
+    width: 20vw;
+}
+
+.updateInfoButton {
+    width: 15vw;
+    height: 3vw;
+    font-size: 1.5vw;
+    background-color: rgb(20, 129, 255);
+    color:white;
+    border: none;
+    
+    margin-left: 6.5vw;
+}
+
+.updateInfoButton:hover {
+    background-color: rgb(16, 113, 224);
+    cursor: pointer;
+}
+
+.userInfoRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.userNameAndPPColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.userInfoColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}

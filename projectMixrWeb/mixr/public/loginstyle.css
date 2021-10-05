@@ -1,0 +1,110 @@
+/* Login page CSS [Charlotte was here <3] */
+
+/* btw we should use Lato bc it's the best font */
+body {
+    background-color: rgb(41, 41, 41);
+  }
+
+  /* BLUE LINES: */
+  hr.blueLine { /* Cool line under "Welcome to Mixr" */
+    border-top: 4px solid rgb(64, 153, 255);
+    width: 40%;
+    float: left;
+  }
+
+  hr.blueLineSmall { /* Smaller line for non-welcome pages <3 */
+    border-top: 4px solid rgb(64, 153, 255);
+    width: 25%;
+    float: left;
+  }
+
+  /* CONTAINER WEBPAGE STYLING: */
+  .center {
+    float: center;
+    /* margin: auto; */
+    width: 50%;
+    border: 3px solid rgb(64, 153, 255);
+    padding: 15px;
+    /*text-align: center; /* Might make not center-aligned later? */
+  }
+
+  input::placeholder{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: medium;
+  }
+  /* INPUT BOX: */
+  input[type=text] {
+    background-color: rgb(78, 78, 78);
+    border: 3px solid rgb(49, 49, 49);
+    border-radius: 4px;
+  }
+
+/* BUTTON STYLING: */
+  .button-group .button {
+    background-color: rgb(64, 153, 255);
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    /*text-decoration: none; */
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .button-group .button:hover {
+    background-color: rgb(20, 129, 255);
+  }
+  
+  /* FONT STYLING: */
+  h1 { /*Welcome to Mixr title */
+    color: white;
+    
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+  }
+  h2 { 
+    color: white;
+    margin-left: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    /*font-size: medium;*/
+  }
+  h3 { /* Other info: remember me checkbox, etc */
+    color: white;
+    
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+  }
+  h4 { /* smaller version of h4 */
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+  }
+  h5 { /* Tiny font, for information on bottom of page */
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+  }
+  label {
+    color: white;
+    
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+  }
+  textarea::placeholder{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: medium;
+  }
+  textarea[type=text] {
+    background-color: rgb(78, 78, 78);
+    border: 3px solid rgb(49, 49, 49);
+    border-radius: 4px;
+  }
+
+  /* List styling: */
+  /* to be added... */

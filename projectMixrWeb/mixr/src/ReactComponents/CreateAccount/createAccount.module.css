@@ -1,0 +1,149 @@
+.root{
+    flex: 1;
+    position: absolute;
+    left: 0vw;
+    top: 0vw;
+    width: 100%;
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.blueLine{
+    border-top: 5px solid rgb(64, 153, 255);
+    width: 28vw;
+    margin-left: 5vw;
+}
+
+.borderBox{
+    border: 3px solid rgb(64, 153, 255);
+    width: 96vw;
+    height: 63vw;
+    margin: 2vw;
+}
+
+.button{
+    width: 20vw;
+    height: 3vw;
+    font-size: 1.5vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    background-color: rgb(20, 129, 255);
+    color: white;
+    border: none
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: rgb(18, 105, 204);
+}
+
+.buttonContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 5vw;
+    margin-top: 5vw;
+}
+
+.inputBox1{
+    width: 20vw;
+    height: 3vw;
+    font-size: 1.5vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    background-color: rgb(78, 78, 78);
+    border: 3px solid rgb(49, 49, 49);
+    border-radius: 4px;
+    padding-left: 1vw;
+    border: none
+}
+
+.inputBox2{
+    width: 2vw;
+    height: 2vw;
+    margin-left: 5vw;
+    margin-right: 2vw;
+    border: none
+}
+
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2vw;
+    margin-left: 5vw;
+    margin-bottom: 2vw;
+    align-self: flex-start;
+    width: 25vw;
+}
+
+.invalidTextUsername {
+    position: absolute;
+    left: 9%;
+    top: 49.5%;
+    font-style: bold;
+    font-size: 1.5vw;
+    color: red;
+}
+
+.invalidTextPassword {
+    position: absolute;
+    left: 9%;
+    top: 57%;
+    font-style: bold;
+    font-size: 1.5vw;
+    color: red;
+}
+
+.invalidTextEmail {
+    position: absolute;
+    left: 9%;
+    top: 42%;
+    font-style: bold;
+    font-size: 1.5vw;
+    color: red;
+}
+
+.invalidTextFirstName {
+    position: absolute;
+    left: 9%;
+    top: 65%;
+    font-style: bold;
+    font-size: 1.5vw;
+    color: red;
+}
+
+.invalidTextLastName {
+    position: absolute;
+    left: 9%;
+    top: 72.5%;
+    font-style: bold;
+    font-size: 1.5vw;
+    color: red;
+}
+
+.invalidTextFailedFetch {
+    position: absolute;
+    left: 9%;
+    top: 73%;
+    font-style: bold;
+    font-size: 1.5vw;
+    color: red;
+}
+
+.loginTitle{
+    color: white;
+    margin-left: 5vw;
+    font-size: 5vw;
+}
+
+.passwordExplanation{
+    color: white;
+    margin-top: 3vw;
+    margin-left: 5vw;
+    width: 88vw;
+    font-size: 1.5vw;
+}

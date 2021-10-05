@@ -1,0 +1,90 @@
+.root{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #2185BD;
+    height: 7.5vw;
+    z-index: 99999999999;
+}
+
+/* Alphabetical containers below here: */
+
+.imageStyle{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    /*box-shadow: 3px 15px 15px #00000065;*/
+}
+
+/* Defunct: */
+.navBarItem{
+    height: 6vw;
+    width: 6vw;
+    border-radius: 50%;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    /* margin-left: auto;
+    margin-right: auto; */
+    display: block;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Middle icons: */
+
+.navBarItem2{
+    height: 6vw;
+    width: 6vw;
+    border-radius: 50%;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    /* margin-left: auto;
+    margin-right: auto; */
+    display: block;
+    flex-direction: row;
+    justify-content: space-between;
+    transition: transform .2s;
+}
+
+.navBarItem2:hover{
+    transform: scale(1.2);
+}
+
+/* Left icon (added margin): */
+
+.navBarItemL{
+    height: 6vw;
+    width: 6vw;
+    border-radius: 50%;
+    margin-left: 27vw;
+    margin-right: 3vw;
+    /* margin-left: auto;
+    margin-right: auto; */
+    display: block;
+    flex-direction: row;
+    justify-content: space-between;
+    transition: transform .2s;
+}
+
+.navBarItemL:hover{
+    transform: scale(1.2);
+}
+
+/* Right icon: */
+
+.navBarItemR{
+    height: 6vw;
+    width: 6vw;
+    border-radius: 50%;
+    margin-left: 3vw;
+    margin-right: 6vw;
+    /* margin-left: auto;
+    margin-right: auto; */
+    display: block;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navBarItem:hover{
+    cursor: pointer;
+}
