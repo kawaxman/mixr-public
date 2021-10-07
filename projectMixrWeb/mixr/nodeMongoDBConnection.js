@@ -10,7 +10,7 @@ async function main() {
     //In this icon whitelist your IP address, then select connect by NodeJS
     //You don't actually need to do this unless you specifically want to
     const uri = ""
-    // URI removed because it is inactive
+    // URI removed because it is inactive as the cluster has been taken down
     
     //variable to store a promise to instantiate the MongoDB cluster
     //The promise is essentially a variable that says it's in the process of pulling some data, but is not complete

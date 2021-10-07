@@ -1,4 +1,29 @@
-# 3308SP21_015_1
+
+Note: Mixr is a web app created in Spring 2021 as a final project for the Software Development and Tools class at CU Boulder. The development team was made up of the following (in alphabetical order): Ashley Weaver, Charlotte Donaldson, Jack Gentlemen, John Hau,  Junyu Ding, Kent Waxman. This is a clone of the original project repository, currently for display purposes. Connected databases are not currently functional.
+
+Specific Contributions (this is not an exhaustive list):
+
+Ashley Weaver:
+    Admin page UI, search page UI, drink history UI, product testing (test cases and user stories), project milestone recording
+Charlotte Donaldson:
+    Front end design manager and overall styling planner, wireframe planning, login page UI, profile page UI, navigation bar UI and icon design
+Jack Gentleman:
+    Scrum master, created uploading drink recipe page, created database integration for storing, uploading and fetching drinks
+John Hau:
+    Set up MongoDB database, MongoDB and MongoDB Realm integration, middleware bridge setup, navigation bar routing, architecture diagrams
+Junyu Ding:
+    Designed drink search and ingredient selection pages, converted HTML pages to React Components, wireframe planning
+Kent Waxman:
+    Converted HTML files into React components, worked on drink recipe selection pages, project milestone recording
+
+
+
+For questions regarding this repository, contact: https://github.com/GlitchedChar
+
+
+
+
+
 
 Application Description:
 Mixr is an web app created to help users create classic and unique drinks purely based on the ingredients at the user’s disposal. Mixr also has the ability for users to upload their custom drinks for the community to see and try, or simply store the user’s custom recipes for easy access.
@@ -13,4 +38,4 @@ Mixr was designed with specific use-cases in mind. For instances, two main use-c
 
 
 Deployment:
-Mixr not currently hosted anywhere, so it has to be run locally. In order to run it, first navigate to the /3308SP21_015_1/projectMixrWeb/mixr folder in your command prompt (Note: for some reason it doesn’t work on windows powershell, so I’d recommend using GitBash or something similar). Then run the command “yarn install”,  and after it’s finished installing run the command “yarn start”. Then all you have to do is wait (it sometimes takes a while) and you will be routed to the login page.
+Mixr not currently hosted anywhere, so it has to be run locally. In order to run it, first navigate to the /mixr-public/projectMixrWeb/mixr folder in your command prompt (Note: for some reason it doesn’t work on windows powershell, so I’d recommend using GitBash or something similar). Then run the command “yarn install”,  and after it’s finished installing run the command “yarn start”. Then all you have to do is wait (it sometimes takes a while) and you will be routed to the login page.
