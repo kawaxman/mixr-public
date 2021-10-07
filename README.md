@@ -4,22 +4,22 @@ Note: Mixr is a web app created in Spring 2021 as a final project for the Softwa
 Specific Contributions (this is not an exhaustive list):
 
 Ashley Weaver:
-    -Admin page UI, search page UI, drink history UI, product testing (test cases and user stories), project milestone recording
+    Admin page UI, search page UI, drink history UI, product testing (test cases and user stories), project milestone recording
 
 Charlotte Donaldson:
-    -Front end design manager and overall styling planner, wireframe planning, login page UI, profile page UI, navigation bar UI and icon design
+    Front end design manager and overall styling planner, wireframe planning, login page UI, profile page UI, navigation bar UI and icon design
 
 Jack Gentleman:
-    -Scrum master, created uploading drink recipe page, created database integration for storing, uploading and fetching drinks
+    Scrum master, created uploading drink recipe page, created database integration for storing, uploading and fetching drinks
 
 John Hau:
-    -Set up MongoDB database, MongoDB and MongoDB Realm integration, middleware bridge setup, navigation bar routing, architecture diagrams
+    Set up MongoDB database, MongoDB and MongoDB Realm integration, middleware bridge setup, navigation bar routing, architecture diagrams
 
 Junyu Ding:
-    -Designed drink search and ingredient selection pages, converted HTML pages to React Components, wireframe planning
+    Designed drink search and ingredient selection pages, converted HTML pages to React Components, wireframe planning
 
 Kent Waxman:
-    -Converted HTML files into React components, worked on drink recipe selection pages, project milestone recording
+    Converted HTML files into React components, worked on drink recipe selection pages, project milestone recording
 
 
 
