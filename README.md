@@ -25,12 +25,6 @@ Kent Waxman:
 
 
 
-For questions regarding this repository, contact: https://github.com/GlitchedChar
-
-
-
-
-
 
 Application Description:
 Mixr is an web app created to help users create classic and unique drinks purely based on the ingredients at the user’s disposal. Mixr also has the ability for users to upload their custom drinks for the community to see and try, or simply store the user’s custom recipes for easy access.
