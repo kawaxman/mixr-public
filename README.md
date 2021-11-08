@@ -19,7 +19,7 @@ Junyu Ding:
     Designed drink search and ingredient selection pages, converted HTML pages to React Components, wireframe planning
 
 Kent Waxman:
-    Converted HTML files into React components, worked on drink recipe selection pages, project milestone recording
+    Converted HTML files into React components, worked on drink recipe selection pages, assisted in setting up MongoDB database, project milestone recording, created architecture diagrams
 
 
 
